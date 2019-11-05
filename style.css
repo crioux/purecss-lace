@@ -97,15 +97,23 @@ div:after, div:before {
 }
 
 .head {
-    background-color: #f3d5bb;
-    background-image: radial-gradient(circle at 56% 9%, #da1f2821 8%, transparent 29%), radial-gradient(circle at 52% 16%, #f7f2e2 5%, transparent 27%), radial-gradient(circle at 16% 16%, #907b65b8 15%, transparent 26%), linear-gradient(98deg, rgba(125, 91, 61, 0.76) 14%, transparent 31%) ,radial-gradient(ellipse closest-corner at 35% 50%, #dac5a6, #c39f7d);
+    background-color: #f9f9f9;
+    background-image: radial-gradient(circle at 56% 9%, #ded0d121 8%, transparent 29%), 
+        radial-gradient(circle at 52% 16%, #e6e6e6 5%, transparent 27%), 
+        radial-gradient(circle at 16% 16%, #929292b8 15%, transparent 26%),
+        linear-gradient(98deg, rgba(142, 142, 142, 0.76) 14%, transparent 31%),
+        radial-gradient(ellipse closest-corner at 35% 50%, #fdfdfd, #e0e0e0);
     overflow: hidden;
     width: 90%;
     height: 70%;
     margin: auto;
     position: absolute;
     border-radius: 29% 54% 70% 30% / 43% 45% 50% 56%;
-    box-shadow: -0.3em -2.7em 1.1em -2em #b59e83, 3.5em -5.1em 1.5em -4.4em #b79c7d, inset -0.5em -1.1em 1.8em -1.1em #7b6246, inset -0.4em 1.6em 0.9em -0.8em #b59c7f, inset -0.7em -0.9em 1.9em -1em #af8376, inset 2.2em -3em 2.4em -1em #291010, inset -4em -2.7em 8em 0.3em #947968, inset -6em -0.2em 8em 3em #cdccaf, 1.3em 2.7em 0.8em -2em #2d040442, -14px -1px 8px -11px #150d0da8;
+    box-shadow: -0.3em -2.7em 1.1em -2em #a9a9a9, 3.5em -5.1em 1.5em -4.4em #a0a0a0, 
+    inset -0.5em -1.1em 1.8em -1.1em #000000, inset -0.4em 1.6em 0.9em -0.8em #a9a9a9, 
+    inset -0.7em -0.9em 1.9em -1em #868383, inset 2.2em -3em 2.4em -1em #2b2b2b, 
+    inset -4em -2.7em 8em 0.3em #828282, inset -6em -0.2em 8em 3em #bbbbb9, 
+    1.3em 2.7em 0.8em -2em #2f2f2f42, -14px -1px 8px -11px #4c4c4ca8;
     text-shadow: 0 0 black;
 }
 
@@ -113,11 +121,11 @@ div:after, div:before {
     height: 16%;
     bottom: 13%;
     left: 15%;
-    box-shadow: 0 0 3.0em 2.2em #613e34, -2.5em 0 3.5em 1.0em #2f1407cf;
+    box-shadow: 0 0 3.0em 2.2em #4a4a4a, -2.5em 0 3.5em 1.0em #777777cf;
 }
 
 .nose {
-    width: 29%;
+    width: 26%;
     height: 31%;
     top: 38%;
     left: 12%;
@@ -126,19 +134,32 @@ div:after, div:before {
 .nose:after {
     bottom: 29%;
     right: 41%;
-    box-shadow: -2em 1.9em 1em 0.9em #f9eeee, 0 0 5.8em 3.6em rgba(197, 104, 84, 0.87);
+    box-shadow: -2em 1.9em 1em 0.9em #f3f3f3, 0 0 5.8em 3.6em rgba(193, 193, 193, 0.87);
 }
 
 .nose .tip {
-    border-radius: 34% 54% 30% 46% / 62% 52% 45% 37%;
-    background-color: #deb4a5;
-    background-image: radial-gradient(ellipse at 44% 7%, #fdf6f6 9%, transparent 29%), linear-gradient(105deg, #461a1a 9%, transparent 21%), radial-gradient(ellipse at 71% 37%, #f7f0e2, transparent 55%), radial-gradient(ellipse farthest-corner at 130% 33%, transparent 49%, #9e7b5a 133%), radial-gradient(ellipse at 62% 33%, #ecddc2, transparent);
+    border-radius: 90% 24% 30% 46% / 82% 92% 35% 47%;
+    background-color: #e6e6e6;
+    background-image: radial-gradient(ellipse at 44% 7%, #e6e6e6 9%, transparent 29%), 
+        linear-gradient(105deg, #ffffff 9%, transparent 21%), 
+        radial-gradient(ellipse at 71% 37%, #b7b7b7, transparent 55%), 
+        radial-gradient(ellipse farthest-corner at 130% 33%, transparent 49%, #ffffff 133%), 
+        radial-gradient(ellipse at 62% 33%, #ffffff, transparent);
     width: 80%;
-    height: 37%;
+    height: 38%;
     bottom: 0;
     left: 5%;
     overflow: hidden;
-    box-shadow: inset 1.6em -2.3em 1em -1.8em #5f3b31, inset 2.6em -0.1em 1.5em -1.8em #8e7357, -1.7em 2.9em 1.1em -2.1em #2b1915, 0.3em 1.6em 0.6em -1.1em #29120d91, -1.6em 1.8em 2.3em -1.1em #29120d9c, 2.2em 0.2em 2em -2em #c7998f, inset -0.7em -1.7em 1.6em -0.6em #b39a8b, 1.3em 0.8em 0.8em -1em #b39a8b, 3.4em 3.4em 1.4em -1.7em #fdeeddcf, 1.3em -3em 0.951em -2em #e8d5d0;
+    box-shadow: inset 1.6em -2.3em 1em -1.8em #7b7b7b, 
+        inset 2.6em -0.1em 1.5em -1.8em #777777,
+        -1.7em 2.9em 1.1em -2.1em #4a4a4a, 
+        0.3em 1.6em 0.6em -1.1em #9c9c9c91, 
+        -1.6em 1.8em 2.3em -1.1em #3131319c, 
+        2.2em 0.2em 2em -2em #bdbdbd,
+        inset -0.7em -1.7em 1.6em -0.6em #c1c1c1, 
+        1.3em 0.8em 0.8em -1em #b3b3b3, 
+        3.4em 3.4em 1.4em -1.7em #e4e4e4cf,
+        1.3em -3em 0.951em -2em #e2e2e2;
     transform: rotate(1deg);
 }
 
@@ -147,24 +168,24 @@ div:after, div:before {
     left: 71%;
     top: 8%;
     transform: rotate(18deg);
-    box-shadow: 0 0 2em 0.2em #b78a68, -2em 0 1.4em 0.58em #fffaef;
+    box-shadow: 0 0 2em 0.2em #b9b9b9, -2em 0 1.4em 0.58em #f7f7f7;
 }
 
 .nose .edge:before {
     height: 70%;
     top: 55%;
-    box-shadow: -2em 0 1em 1.5em #f7e4d0;
+    box-shadow: -2em 0 1em 1.5em #f1f1f1;
 }
 
 .nose .edge:after {
     height: 58%;
     top: 18%;
     transform: rotate(-5deg);
-    box-shadow: -0.6em 0 1.2em 0.2em #967861c4, -1.7em 0 0.86em 0.3em #fffefc;
+    box-shadow: -0.6em 0 1.2em 0.2em #a9a9a9c4, -1.7em 0 0.86em 0.3em #f7f7f7;
 }
 
 .nose .tipshadow {
-    box-shadow: 0 0 2.0em 1.1em #7337318f;
+    box-shadow: 0 0 2.0em 1.1em #000000;
     bottom: 3%;
     left: 19%;
     width: 47%;
@@ -173,29 +194,155 @@ div:after, div:before {
 
 .nostril.left {
     transform: rotate(-55deg);
-    box-shadow: 0 0 0.4em 0.3em #130101, -0.7em 0.4em 0.5em 1.4em #48291d, 1.5em 0.6em 0.7em 0.6em #b7a082;
+    box-shadow: 0 0 0.4em 0.3em #000000, -0.5em 0.4em 0.5em 1.4em #a2a2a2, 1.5em 0.6em 0.7em 0.6em #c5c5c5;
     bottom: -4%;
     height: 26%;
     left: 20%;
 }
 
 .nostril.right {
-    transform: rotate(2deg);
-    box-shadow: 0 0 0.4em 0.3em #0a0101, -0.8em 0.1em 0.7em 0.7em #48291d;
-    bottom: 6%;
-    width: 26%;
-    height: 6%;
-    left: 53%;
-    border-radius: 50%;
-    background: #0a0101;
+    transform: rotate(-5deg);
+    box-shadow: 0 0 0.4em 0.3em #000000, -1.0em 0.1em 0.7em 0.7em #a7a7a7;
+    bottom: 3%;
+    width: 25%;
+    height: 15%;
+    left: 50%;
+    border-radius: 90%;
+    background: #000000;
+}
+
+.nosedots {
+    bottom: 60%;
+    left: 32%;
+    width: 40%;
+    height: 40%;
+}
+
+.nosedot {
+    background-image: 
+        radial-gradient(circle at 50% 50%, #000000, #000000 50%, transparent 80%, transparent 100%);
+    background-position: center center;
+    background-size: 1.0em 1.0em;
+    background-repeat: repeat-y;
+}
+
+.nosedot.nd1 {
+    top: 0%;
+    left: 60%;
+    width: 1em;
+    height: 1em;
+}
+
+.nosedot.nd2 {
+    top: 25%;
+    left: 55%;
+    width: 1em;
+    height: 1em;
+    transform:scale(.8);
+}
+
+.nosedot.nd3 {
+    top: 50%;
+    left: 45%;
+    width: 1em;
+    height: 1em;
+    transform:scale(.6);
+}
+
+.lefteyedots {
+    top: 70%;
+    left: 60%;
+    width: 40%;
+    height: 40%;
+}
+
+.righteyedots {
+    top: 65%;
+    left: 10%;
+    width: 20%;
+    height: 40%;
+}
+
+.eyedot {
+    background-image: 
+        radial-gradient(circle at 50% 50%, #000000, #000000 50%, transparent 80%, transparent 100%);
+    background-position: center center;
+    background-size: 0.5em 0.5em;
+    background-repeat: repeat-y;
+}
+
+.eyedot.ed1 {
+    top: 0%;
+    left: 70%;
+    width: .5em;
+    height: .5em;
+}
+
+.eyedot.ed2 {
+    top: 15%;
+    left: 60%;
+    width: .5em;
+    height: .5em;
+}
+
+.eyedot.ed3 {
+    top: 15%;
+    left: 80%;
+    width: .5em;
+    height: .5em;
+}
+
+.nosering {
+    top: 5%;
+    left:4%;
+    width:60%;
+    height:100%;
+    border:.75em solid #151515;
+    border-radius:50%;
+    border-top-color:transparent;
+    border-left-color:transparent;
+    border-right-color:transparent;
+}
+
+.nosestud {
+    background-image: 
+        radial-gradient(circle at 59% 36%, #86e1e4 6%, #46e4e429 17%, transparent 28%), 
+        radial-gradient(circle at 58% 41%, #73c7d8 34%, transparent 47%), 
+        radial-gradient(circle at 50% 50%, #39a5a3 43%, transparent 69%),
+        radial-gradient(circle at 50% 50%, #020202, #000000bd 69%, transparent 71%),
+        radial-gradient(circle at 50% 50%, #000000, #000000 15%, transparent 80%);
+    background-position: center 0;
+    background-size: .75em .75em;
+    background-repeat: repeat-y;
+}
+
+.nosestud.ns1 {
+    bottom: -2%;
+    width: .75em;
+    height: .75em;
+    left: 25%;
+}
+
+.nosestud.ns2 {
+    bottom: -4%;
+    width: .75em;
+    height: .75em;
+    left: 40%;
+}
+
+.nosestud.ns3 {
+    bottom: -2.5%;
+    width: .75em;
+    height: .75em;
+    left: 55%;
 }
 
 .outer-bridge {
     overflow: hidden;
     transform: rotate(13deg);
-    background-image: radial-gradient(ellipse at 100% 0, rgba(88, 20, 17, 0.12) 28%, transparent 56%);
+    background-image: radial-gradient(ellipse at 100% 0, rgba(56, 56, 56, 0.12) 28%, transparent 56%);
     border-radius: 45% 53% 2% 17% / 6% 26% 49% 15%;
-    box-shadow: 0.1em -2.3em 1.7em -1.4em #674037, 1.2em -0.6em 1.0em -0.4em #8e7267;
+    box-shadow: 0.1em -2.3em 1.7em -1.4em #585858, 1.2em -0.6em 1.0em -0.4em #bdbdbd;
     width: 25%;
     height: 35%;
     top: 33%;
@@ -206,13 +353,13 @@ div:after, div:before {
     height: 100%;
     width: 100%;
     border-radius: inherit;
-    box-shadow: inset -0.3em 3.3em 2.0em -1.4em #48292291;
+    box-shadow: inset -0.3em 3.3em 2.0em -1.4em #6969697a;
 }
 
 .inner-bridge:after {
     height: 90%;
     right: 0;
-    box-shadow: 0 0 1.0em 1.1em #613e39;
+    box-shadow: 0 0 1.0em 1.1em #9c9c9c;
     transform: rotate(4deg);
 }
 
@@ -226,24 +373,24 @@ div:after, div:before {
 
 .toplips {
     border-radius: 0 0 49% 50% / 55% 0 27% 35%;
-    width: 100%;
+    width: 104%;
     left: 0;
     height: 49%;
     overflow: hidden;
-    box-shadow: -0.2em 1.3em 0.3em -1.2em #230404, -1.3em 0.9em 0.8em -1.2em #190000, 0.5em 0.8em 1.1em -0.7em #2d0808, 1.4em 1.1em 0.3em -1.3em #270303;
+    box-shadow: -0.2em 1.3em 0.3em -1.2em #2d2d2d, -1.3em 0.9em 0.8em -1.2em #000000, 0.5em 0.8em 1.1em -0.7em #212121, 1.4em 1.1em 0.3em -1.3em #505050;
 }
 
 .toplips:after {
-    width: 109%;
+    width: 112%;
     height: 100%;
     border-radius: inherit;
-    box-shadow: inset -0.9em -1.1em 1.0em -0.9em #4a0b0b;
+    box-shadow: inset -0.9em -1.1em 1.0em -0.9em #313131;
 }
 
 .topleftlip {
-    background-color: #d08178;
-    background-image: linear-gradient(31deg, #1f0303 39%, #752727, transparent 96%);
-    box-shadow: inset 1.4em 0.2em 0.6em -0.6em #502323, inset -0.5em 0.3em 0.3em -0.3em #ad8162;
+    background-color: #000000;
+    background-image: linear-gradient(31deg, #000000 39%, #000000, transparent 96%);
+    box-shadow: inset 1.4em 0.2em 0.6em -0.6em #101010, inset -0.5em 0.3em 0.3em -0.3em #ffffff;
     height: 106%;
     left: 0%;
     width: 37%;
@@ -253,9 +400,9 @@ div:after, div:before {
 }
 
 .toprightlip {
-    background-color: #ce9590;
-    background-image: linear-gradient(1deg, #632922, #773630, transparent 80%);
-    box-shadow: inset 0.0em 0.8em 0.4em -0.5em #dcbcab;
+    background-color: #2f2f2f;
+    background-image: linear-gradient(1deg, #000000, #000000, transparent 80%);
+    box-shadow: inset 0.0em 0.8em 0.4em -0.5em #ececec;
     height: 118%;
     bottom: 0;
     right: 9%;
@@ -284,10 +431,10 @@ div:after, div:before {
     width: 91%;
     bottom: 0;
     height: 65%;
-    background-color: #efb8b8;
+    background-color: #000000 ;
     border-radius: 0% 0 62% 34% / 0% 0 99% 93%;
-    box-shadow: 1.4em 0.9em 0.7em -1.2em #d0a7a2, -0.4em 0.1em 0.3em 0.0em #581f1f, -1.0em 2.1em 1.1em -1.0em #502020bd, -2.2em 1.4em 1.8em 0.4em #38201396;
-    background-image: radial-gradient(ellipse at 48% 45%, #dc7e7e, transparent 48%), linear-gradient(99deg, #460808, transparent);
+    box-shadow: 1.4em 0.9em 0.7em -1.2em #8e8e8e, -0.4em 0.1em 0.3em 0.0em #2f2f2f, -1.0em 2.1em 1.1em -1.0em #656565bd, -2.2em 1.4em 1.8em 0.4em #79797996;
+    background-image: radial-gradient(ellipse at 48% 45%, #4c4c4c, transparent 48%), linear-gradient(99deg, #080808, transparent);
 }
 
 .bottomrightlip {
@@ -295,17 +442,62 @@ div:after, div:before {
     bottom: 43%;
     width: 29%;
     right: 32%;
-    box-shadow: 0 0 0.4em 0.1em white;
+    box-shadow: 0 0 0.4em 0.1em #adadad;
 }
 
+.lipstuds {
+    bottom: 14%;
+    width: 16%;
+    height: 4%;
+    left: 17%;
+}
+
+.stud {
+    background-image: 
+        radial-gradient(circle at 59% 36%, #d6feff 6%, #94939300 17%, transparent 28%), 
+        radial-gradient(circle at 58% 41%, #8bdeef 34%, transparent 47%), 
+        radial-gradient(circle at 50% 50%, #39a5a3 43%, transparent 69%),
+        radial-gradient(circle at 50% 50%, #020202, #0000003d 69%, transparent 71%),
+        radial-gradient(circle at 50% 50%, #000000, #000000 15%, transparent 80%);
+    background-position: center 0;
+    background-size: 1.0em 1.0em;
+    background-repeat: repeat-y;
+    
+}
+
+.stud.ls1 {
+    top: 11%;
+    width: 1em;
+    height: 1em;
+    left: 0%;
+}
+
+.stud.ls2 {
+    top: 26%;
+    width: 1em;
+    height: 1em;
+    left: 38%;
+}
+
+.stud.ls3 {
+    top: 17%;
+    width: 1em;
+    height: 1em;
+    left: 80%;
+}
+
+
 .chin {
-    bottom: 3%;
+    bottom: 2%;
     left: 18%;
     border-radius: 50%;
     width: 27%;
-    height: 11%;
-    filter: blur(0.4em);
-    background-image: radial-gradient(ellipse at 92% 68%, transparent 50%, #f3eede36, transparent 81%), radial-gradient(ellipse at 60% 68%, #d810501f, transparent 61%), radial-gradient(ellipse at 43% 23%, #f3e1bb, transparent 40%);
+    height: 10%;
+    filter: blur(1.1em);
+    background-image: 
+        radial-gradient(ellipse at 92% 68%, transparent 50%, #dcdcdc36, transparent 81%), 
+        radial-gradient(ellipse at 60% 68%, #d2d2d21f, transparent 61%), 
+        radial-gradient(ellipse at 43% 23%, #ffffff, transparent 40%);
 }
 
 .mouthcorner {
@@ -313,10 +505,10 @@ div:after, div:before {
     top: 38%;
     height: 8%;
     width: 11%;
-    background: #542e2e;
+    background: #777777ed;
     border-radius: 50%;
     transform: rotate(-12deg);
-    box-shadow: -0.3em 1.1em 0.76em 0.4em #efd9cdd1, 0.8em 0.1em 0.8em 0.2em #986362, 0.2em -0.6em 1.6em 0.2em #61312f;
+    box-shadow: -0.3em 1.1em 0.76em 0.4em #b9b9b9d1, 0.8em 0.1em 0.8em 0.2em #fffff, 0.2em -0.6em 1.6em 0.2em #585858;
 }
 
 .mouthcornerleft {
@@ -324,7 +516,7 @@ div:after, div:before {
     top: 28%;
     height: 31%;
     transform: rotate(-60deg);
-    box-shadow: 0.2em -0.6em 1.6em 0.9em #381a15, -0.4em 0.4em 1.1em 0.5em #f7d4c5;
+    box-shadow: 0.2em -0.6em 1.6em 0.9em #4e4e4e, -0.4em 0.4em 1.1em 0.5em #ffffff;
 }
 
 .eyeleft {
@@ -332,7 +524,7 @@ div:after, div:before {
     height: 46%;
     left: 1%;
     top: 5%;
-    background-image: radial-gradient(ellipse closest-side at 50% 50%, #3c1d111f 67%, transparent);
+    background-image: radial-gradient(ellipse closest-side at 50% 50%, #4242421f 67%, transparent);
     border-radius: 50% 50% 30% 70% / 50% 50% 50% 50%;
 }
 
@@ -341,7 +533,9 @@ div:after, div:before {
     height: 26%;
     left: 29%;
     top: 30.3%;
-    background-image: radial-gradient(ellipse closest-side at 50% 49%, #a98e77 53%, transparent 83%), radial-gradient(ellipse closest-side at 50% 50%, #ad8e79 10%, transparent 100%);
+    background-image: 
+        radial-gradient(ellipse closest-side at 50% 49%, #ababab 53%, transparent 83%), 
+        radial-gradient(ellipse closest-side at 50% 50%, #a5a5a5 10%, transparent 100%);
 }
 
 .cheek {
@@ -351,18 +545,21 @@ div:after, div:before {
     width: 57%;
     height: 40%;
     filter: blur(0.5em);
-    background-image: radial-gradient(ellipse at 40% 65%, rgba(220, 0, 51, 0.08) 8%, transparent 46%), radial-gradient(ellipse at 24% 50%, rgba(255, 252, 247, 0.6), transparent 20%), radial-gradient(ellipse at 64% 56%, rgba(255, 255, 255, 0.42), transparent 28%);
-    box-shadow: inset -2.2em -8.3em 4.0em -5.9em rgba(128, 98, 98, 0.5), 2.6em 4.9em 4.0em -2.5em rgba(128, 98, 98, 0.5);
+    background-image: radial-gradient(ellipse at 40% 65%, rgba(255, 255, 255, 0.08) 8%, transparent 46%),
+     radial-gradient(ellipse at 24% 50%, rgba(249, 249, 249, 0.6), transparent 20%), 
+     radial-gradient(ellipse at 64% 56%, rgba(255, 255, 255, 0.42), transparent 28%);
+    box-shadow: inset -2.2em -8.3em 4.0em -5.9em rgba(144, 144, 144, 0.5), 2.6em 4.9em 4.0em -2.5em rgba(128, 128, 128, 0.5);
 }
 
 .eyeright .toplid {
-    background-image: linear-gradient(95deg, #92725a, #9c736c 43%, #ceaba5, #9c7f72 76%, #9f8167);
+    background-image: linear-gradient(95deg, #000000, #3e3e3e 43%, #c1c1c1, #313131 76%, #000000);
     border-radius: 52% 50% 50% 50% / 90% 90% 10% 10%;
     width: 45%;
     height: 26%;
     bottom: 41%;
     left: 23%;
-    box-shadow: 0.3em -1.0em 0.3em -0.8em #5d3425, 0.8em -1.1em 2.0em -0.1em #4e231c, inset 0 1.5em 0.4em -1.2em #906a62, -0.9em -1.6em 2.0em -0.5em #ca9f7a, -2.3em -0.9em 2.0em 0.2em #846559;
+    box-shadow: 0.3em -1.0em 0.3em -0.8em #000000, 0.8em -1.1em 2.0em -0.1em #000000, inset 0 1.5em 0.4em -1.2em #000000, 
+    -0.9em -1.6em 2.0em -0.5em #3a3a3a, -2.3em -0.9em 2.0em 0.2em #424242;
 }
 
 .eye:after {
@@ -377,23 +574,27 @@ div:after, div:before {
     height: 33%;
     bottom: 15%;
     left: 23%;
-    background-image: radial-gradient(ellipse at 53% 44%, #a98578 35%, transparent 54%), radial-gradient(ellipse at 53% 11%, #744e40 34%, #94765e, transparent 66%);
+    background-image: 
+    radial-gradient(ellipse at 53% 44%, #404040 35%, transparent 54%), 
+    radial-gradient(ellipse at 53% 11%, #565656 34%, #717171, transparent 66%);
 }
 
 .eyeright .eye {
     overflow: hidden;
     border-radius: 99% 0;
-    background-image: radial-gradient(circle at 11% 8%, #f9f0e2 23%, #71655d 78%);
+    background-image: radial-gradient(circle at 11% 8%, #f5f5f5 23%, #404040 78%);
     height: 43%;
     width: 23%;
     left: 34%;
     bottom: 23%;
     transform: rotate(55deg);
-    box-shadow: -0.1em -0.6em 0.3em -0.2em #170808c4, 1.6em -1.0em 0.1em -1.6em white, inset -0.1em 0.1em 0.2em 0.2em #58282838, 0.5em 0.1em 0.2em 0.1em #c39898bd, -0.1em -0.2em 0.2em 0.0em #8c635f;
+    box-shadow: -0.1em -0.6em 0.3em -0.2em #170808c4, 1.6em -1.0em 0.1em -1.6em white, 
+    inset -0.1em 0.1em 0.2em 0.2em #61616138, 0.5em 0.1em 0.2em 0.1em #020202bd, 
+    -0.1em -0.2em 0.2em 0.0em #000000;
 }
 
 .eyeright .eye:after {
-    box-shadow: inset 0.9em 0.9em 0.4em -0.8em #150c0bc2;
+    box-shadow: inset 0.9em 0.9em 0.4em -0.8em #000000c2;
 }
 
 .eyeright .iris {
@@ -401,9 +602,11 @@ div:after, div:before {
     right: 11%;
     width: 75%;
     height: 58%;
-    background-color: #8e6c4c;
-    background-image: linear-gradient(131deg, rgba(14, 7, 4, 0.89) 31%, transparent 61%), radial-gradient(transparent 33%, #271a06 84%), repeating-conic-gradient(transparent, rgba(53, 37, 37, 0.52) 20deg, transparent 30deg);
-    box-shadow: 0 0 0.3em 0.2em #3e2909;
+    background-color: #b1e9ff;
+    background-image: linear-gradient(131deg, rgba(12, 12, 12, 0.89) 31%, transparent 61%),
+     radial-gradient(transparent 33%, #0f1213 84%), 
+     repeating-conic-gradient(transparent, rgba(74, 74, 74, 0.52) 20deg, transparent 30deg);
+    box-shadow: 0 0 0.3em 0.2em #3c3c3c;
     border-radius: 50%;
 }
 
@@ -435,9 +638,9 @@ div:after, div:before {
     height: 21%;
     left: 29%;
     bottom: 35%;
-    box-shadow: inset 0.6em -0.6em 0.2em -0.5em #ab8189, 0.1em 1.2em 0.2em -0.4em #bf8f98;
+    box-shadow: inset 0.6em -0.6em 0.2em -0.5em #252525, 0.1em 1.2em 0.2em -0.4em #383838;
     transform: rotate(56deg);
-    background-image: linear-gradient(24deg, #a76974 8%, #6d4343 28%, transparent 51%);
+    background-image: linear-gradient(24deg, #7d7d7d 8%, #5d5d5d 28%, transparent 51%);
 }
 
 .eyeright .innercorner {
@@ -446,40 +649,41 @@ div:after, div:before {
     height: 30%;
     left: 24%;
     bottom: 22%;
-    box-shadow: -1.5em 0.3em 0.6em -0.4em #fdf0ef7a;
+    box-shadow: -1.5em 0.3em 0.6em -0.4em #ffffff7a;
     transform: rotate(-6deg);
     filter: blur(0.2em);
 }
 
 .leftbrow {
     border-radius: 55% 45% 0 0 / 90% 80% 0 0;
-    border-top: 1.5em solid rgb(103, 75, 62);
-    width: 20%;
+    border-top: 1.5em solid rgb(0, 0, 0);
+    width: 25%;
     height: 5%;
-    left: 1%;
-    top: 32%;
-    filter: blur(0.5em);
-    transform: rotate(14deg);
+    left: -1%;
+    top: 31%;
+    filter: blur(0.2em);
+    transform: rotate(32deg);
 }
 
 .leftbrow:before {
-    border-top: 1.3em solid #4a3127cc;
+    border-top: 1.3em solid #0000005c;
     top: -100%;
     right: -4%;
     width: 58%;
-    transform: rotate(-10deg);
+    transform: rotate(-0deg);
 }
 
 .eyeright .brow {
     border-radius: 55% 45% 0 0 / 90% 80% 0 0;
-    border-top: 1.8em solid rgba(60, 21, 8, 0.3);
-    border-left: 2.0em solid rgba(53, 14, 6, 0.31);
+    border-top: 1.8em solid rgba(0, 0, 0, 0.3);
+    border-left: 2.0em solid rgba(0, 0, 0, 0.22);
+    border-style:none;
     width: 70%;
     height: 19%;
     left: 13%;
-    top: 7%;
-    filter: blur(0.5em);
-    transform: rotate(0deg);
+    top: 18%;
+    filter: blur(0.2em);
+    transform: rotate(-15deg);
 }
 
 .leftbrow:before, .leftbrow:after, .brow:before, .brow:after {
@@ -488,17 +692,17 @@ div:after, div:before {
 }
 
 .brow:before {
-    border-top: 1.3em solid #63392aa3;
+    border-top: 1.3em solid #000000;
     top: -100%;
     left: -4%;
-    width: 70%;
-    transform: rotate(-10deg);
+    width: 90%;
+    transform: rotate(-0deg);
 }
 
 .eyeright .lash {
     filter: blur(0.15em);
     border-radius: 50%;
-    border-right: 0.3em solid rgba(43, 27, 17, 0.3);
+    border-right: 0.3em solid rgba(0, 0, 0, 0.3);
     height: 9%;
     width: 5%;
     transform-origin: 50% 100%;
@@ -540,14 +744,15 @@ div:after, div:before {
 }
 
 .eyeleft .toplid {
-    background-image: linear-gradient(95deg, #5d3428, #8a6e55 43%, #a0746c, #866a4f 76%, #6f5136);
+    background-image: linear-gradient(95deg, #000000, #5a5a5a 43%, #969696, #4c4c4c 76%, #000000);
     border-radius: 44% 48% 50% 50% / 90% 90% 10% 10%;
     width: 75%;
     height: 39%;
     bottom: 47%;
     left: 21%;
     transform: rotate(-14deg);
-    box-shadow: -0.2em -2.0em 1.2em 0.3em #48272194, 0.5em -1.1em 0.4em -0.7em rgba(84, 46, 42, 0.35), 0.5em -0.6em 0.7em 0.1em #3a1717, inset -0.7em 1.6em 0.5em -1.3em #4c2017, -3.3em 0.0em 1.2em 0.3em #4e302ad4;
+    box-shadow: -0.2em -2.0em 1.2em 0.3em #00000094, 0.5em -1.1em 0.4em -0.7em rgba(0, 0, 0, 0.35), 
+    0.5em -0.6em 0.7em 0.1em #000000, inset -0.7em 1.6em 0.5em -1.3em #000000, -3.3em 0.0em 1.2em 0.3em #252525d4;
 }
 
 .eyeleft .bottomlid {
@@ -556,14 +761,16 @@ div:after, div:before {
     height: 50%;
     bottom: 9%;
     left: 18%;
-    box-shadow: -0.4em 1.7em 1.2em -0.9em #6b4936c4, -0.2em 4.5em 1.4em -0.5em #f2e0d333;
-    background-image: radial-gradient(ellipse closest-side at 60% 46%, #a9877a 10%, transparent 102%), radial-gradient(ellipse at 50% 13%, #5a462e 33%, #61312263, transparent 72%), linear-gradient(to right, #5a4035, transparent);
+    box-shadow: -0.4em 1.7em 1.2em -0.9em #696969c4, -0.2em 4.5em 1.4em -0.5em #ffffff33;
+    background-image: radial-gradient(ellipse closest-side at 60% 46%, #000000 10%, transparent 102%), 
+    radial-gradient(ellipse at 50% 13%, #000000 33%, #1f1f1f78, transparent 72%), 
+    linear-gradient(to right, #6b6b6b, transparent);
 }
 
 .eyeleft .lash {
     filter: blur(0.1em);
     border-radius: 50%;
-    border-left: 0.3em solid rgba(35, 19, 10, 0.45);
+    border-left: 0.3em solid rgba(31, 31, 31, 0.45);
     height: 9%;
     width: 5%;
     transform-origin: 50% 100%;
@@ -600,17 +807,18 @@ div:after, div:before {
 .eyeleft .eye {
     overflow: hidden;
     border-radius: 88% 16%;
-    background-image: radial-gradient(circle at 46% 28%, #f9f0e2 23%, #4a372b 78%);
+    background-image: radial-gradient(circle at 46% 28%, #dcdcdc 23%, #383838 78%);
     height: 50%;
     width: 48%;
     left: 40%;
     bottom: 26%;
     transform: rotate(30deg);
-    box-shadow: -0.6em -0.1em 0.3em -0.2em #170808b5, 1.5em 0.4em 0.1em -1.6em #b99494, inset -0.1em 0.1em 0.2em 0.2em #582828bf, 0.5em 0.2em 0.1em 0.0em #b55d5d6b, -0.1em -0.2em 0.2em 0.0em #8c635f;
+    box-shadow: -0.6em -0.1em 0.3em -0.2em #000000b5, 1.5em 0.4em 0.1em -1.6em #545454, inset -0.1em 0.1em 0.2em 0.2em #000000ad, 
+    0.5em 0.2em 0.1em 0.0em #000000, -0.1em -0.2em 0.2em 0.0em #000000;
 }
 
 .eyeleft .eye:after {
-    box-shadow: inset 0.9em 0.9em 0.4em -0.8em #150c0bb5;
+    box-shadow: inset 0.9em 0.9em 0.4em -0.8em #1b1b1bb5;
 }
 
 .eyeleft .iris {
@@ -618,16 +826,18 @@ div:after, div:before {
     right: 11%;
     width: 73%;
     height: 72%;
-    background-color: #8e6c4c;
-    background-image: linear-gradient(131deg, rgba(14, 7, 4, 0.84) 31%, transparent 61%), radial-gradient(transparent 33%, #271a06 84%), repeating-conic-gradient(transparent, rgba(53, 37, 37, 0.52) 20deg, transparent 30deg);
-    box-shadow: 0 0 0.3em 0.2em #3e2909;
+    background-color: #b1e9ff;
+    background-image: linear-gradient(131deg, rgba(12, 12, 12, 0.89) 31%, transparent 61%),
+     radial-gradient(transparent 33%, #0f1213 84%), 
+     repeating-conic-gradient(transparent, rgba(74, 74, 74, 0.52) 20deg, transparent 30deg);
+    box-shadow: 0 0 0.3em 0.2em #3c3c3c;
     border-radius: 50%;
 }
 
 .eyeleft .pupil {
     margin: auto;
-    background: #1f1313;
-    box-shadow: 0 0 0.2em 0.1em #1f1213;
+    background: #131e1f;
+    box-shadow: 0 0 0.2em 0.1em #121e1f;
     width: 40%;
     height: 40%;
     top: 0;
@@ -649,12 +859,12 @@ div:after, div:before {
 .eyeleft .tearduct {
     border-radius: 90% 10%;
     width: 22%;
-    height: 28%;
+    height: 39%;
     right: 2%;
-    bottom: 40%;
-    box-shadow: 0.2em -0.8em 0.2em -0.4em #9e6c7699, inset -0.7em 0.6em 0.4em -0.1em #542222;
-    transform: rotate(42deg);
-    background-image: linear-gradient(-126deg, #351616, #6d3939ba 41%, transparent 63%);
+    bottom: 30%;
+    box-shadow: 0.2em -0.8em 0.2em -0.4em #000000, inset -0.7em 0.6em 0.4em -0.1em #00000063;
+    transform: rotate(22deg);
+    background-image: linear-gradient(-126deg, #000000, #23232300 41%, transparent 63%);
 }
 
 .eyeleft .innercorner {
@@ -669,15 +879,15 @@ div:after, div:before {
 }
 
 .philtrum {
-    left: 21%;
-    bottom: 24%;
-    width: 7%;
-    transform: rotate(12deg);
-    height: 7%;
-    border-radius: 50% 50% 50% 50% / 70% 60% 40% 30%;
-    background-image: linear-gradient(to right, #c1a17f, #c3a38c, rgb(167, 130, 120), #e0d3bb);
+    left: 22%;
+    bottom: 25%;
+    width: 4%;
+    transform: rotate(8deg);
+    height: 6%;
+    border-radius: 60% 50% 50% 50% / 70% 70% 10% 10%;
+    background-image: linear-gradient(to right, #969696cf, #a9a9a9, rgb(158, 158, 158), #c3c3c3);
     filter: blur(0.2em);
-    box-shadow: -1.7em 0.1em 0.7em 0.9em #ffdab924, 0.1em 0.9em 0.5em -0.2em #a26059;
+    box-shadow: -1.7em 0.1em 0.7em 0.9em #adadad24, 0.1em 0.9em 0.5em -0.2em #444444;
 }
 
 .hairshape {
@@ -695,9 +905,10 @@ div:after, div:before {
 }
 
 .hairshape.back {
-    background-color: #382720;
-    background-image: linear-gradient(131deg, #29180e 17%, #a52a2a00 23%), radial-gradient(circle at 40% 44%, transparent 41%, #f5af4142 48%, transparent 56%);
-    box-shadow: inset -0.9em 0.9em 5.0em 0.9em #130c0a;
+    background-color: #101010;
+    background-image: linear-gradient(131deg, #404040 17%, #adadad00 23%), 
+    radial-gradient(circle at 40% 44%, transparent 41%, #eaeaea42 48%, transparent 56%);
+    box-shadow: inset -0.9em 0.9em 5.0em 0.9em #000000;
     background-blend-mode: normal, screen;
     overflow: visible;
 }
@@ -710,8 +921,8 @@ div:after, div:before {
     width: 100%;
     height: 100%;
     border-radius: inherit;
-    box-shadow: inset -7.8em 6.3em 4.8em -4.7em #1b130cbf;
-    background-image: radial-gradient(circle at 26% 74%, transparent 59%, #deb87e14, #27100169 79%);
+    box-shadow: inset -7.8em 6.3em 4.8em -4.7em #000000bf;
+    background-image: radial-gradient(circle at 26% 74%, transparent 59%, #d6d6d614, #00000069 79%);
 }
 
 .hair {
@@ -723,7 +934,7 @@ div:after, div:before {
     width: 100%;
     height: 100%;
     border-color: inherit;
-    box-shadow: 1.2em 0 0.7em -1.2em #29190c82;
+    box-shadow: 1.2em 0 0.7em -1.2em #33333382;
     transform-origin: 100% 100%;
 }
 
@@ -766,6 +977,7 @@ div:after, div:before {
 
 .strand.s7 {
     right: 70%;
+    top: %;
 }
 
 .strand.s8 {
@@ -830,7 +1042,7 @@ div:after, div:before {
     height: 30%;
     width: 22%;
     transform: rotate(49deg);
-    border-color: #674c33;
+    border-color: #5f5f5f;
 }
 
 .hair.h2 {
@@ -838,7 +1050,7 @@ div:after, div:before {
     top: 32%;
     width: 24%;
     height: 38%;
-    border-color: #584030;
+    border-color: #313131;
     transform: rotate(51deg);
 }
 
@@ -848,7 +1060,7 @@ div:after, div:before {
     height: 26%;
     width: 19%;
     transform: rotate(24deg) scaleX(-1);
-    border-color: #5a3c29;
+    border-color: #5d5d5d;
 }
 
 .hair.h4 {
@@ -857,7 +1069,7 @@ div:after, div:before {
     height: 17%;
     width: 19%;
     transform: rotate(3deg) scaleX(-1);
-    border-color: #443022;
+    border-color: #3e3e3e;
 }
 
 .hair.h5 {
@@ -866,7 +1078,7 @@ div:after, div:before {
     height: 40%;
     width: 23%;
     transform: rotate(49deg) scaleX(-1) scaleY(-1);
-    border-color: #584131;
+    border-color: #616161;
 }
 
 .hair.h6 {
@@ -875,7 +1087,7 @@ div:after, div:before {
     height: 7%;
     width: 17%;
     transform: rotate(-53deg) scaleX(-1);
-    border-color: #442e21;
+    border-color: #444444;
 }
 
 .hair.h7 {
@@ -884,7 +1096,7 @@ div:after, div:before {
     height: 9%;
     width: 15%;
     transform: rotate(-22deg) scaleX(-1);
-    border-color: #463022;
+    border-color: #484848;
 }
 
 .hair.h8 {
@@ -893,8 +1105,8 @@ div:after, div:before {
     height: 22%;
     width: 19%;
     transform: rotate(15deg) scaleX(-1);
-    border-color: #67492b;
-    box-shadow: 0.9em 0.0em 0.3em -0.2em #1f10046e;
+    border-color: #000000;
+    box-shadow: 0.9em 0.0em 0.3em -0.2em #2929296e;
 }
 
 .hair.h9 {
@@ -903,7 +1115,7 @@ div:after, div:before {
     height: 53%;
     width: 27%;
     transform: rotate(49deg);
-    border-color: #443524;
+    border-color: #000000;
 }
 
 .hair.h10 {
@@ -912,9 +1124,9 @@ div:after, div:before {
     height: 29%;
     width: 14%;
     transform: rotate(44deg);
-    border-color: #6f5133;
+    border-color: #000000;
     overflow: hidden;
-    box-shadow: 1.4em -0.3em 0.2em -0.2em #8a6b48;
+    box-shadow: 1.4em -0.3em 0.2em -0.2em #797979;
 }
 
 .hair.h11 {
@@ -923,18 +1135,18 @@ div:after, div:before {
     height: 26%;
     width: 19%;
     transform: rotate(35deg) scaleX(-1);
-    border-color: #826344;
+    border-color: #232323;
     overflow: hidden;
 }
 
 .hair.h12 {
-    background-image: radial-gradient(circle at 10% 82%, #583f28, transparent 16%);
+    background-image: radial-gradient(circle at 10% 82%, #313131, transparent 16%);
     right: -1%;
     top: 29%;
     height: 34%;
     width: 28%;
     transform: rotate(56deg);
-    border-color: #7b6043;
+    border-color: #000000;
 }
 
 .hair.h13 {
@@ -943,7 +1155,7 @@ div:after, div:before {
     height: 32%;
     width: 33%;
     transform: rotate(58deg);
-    border-color: #754f2c;
+    border-color: #383838;
 }
 
 .hair.h14 {
@@ -952,7 +1164,7 @@ div:after, div:before {
     height: 39%;
     width: 21%;
     transform: rotate(191deg) scaleX(-1);
-    border-color: #86674a;
+    border-color: #131313;
 }
 
 .hair.h15 {
@@ -962,7 +1174,7 @@ div:after, div:before {
     width: 21%;
     overflow: hidden;
     transform: rotate(202deg) scaleX(-1);
-    border-color: #674d33;
+    border-color: #000000;
 }
 
 .hair.h16 {
@@ -971,8 +1183,8 @@ div:after, div:before {
     height: 28%;
     width: 12%;
     transform: rotate(-149deg) scaleY(-1);
-    border-color: #8a6c4e;
-    box-shadow: inset -1.1em 0.8em 0.3em -0.6em #3a2310bd;
+    border-color: #000000;
+    box-shadow: inset -1.1em 0.8em 0.3em -0.6em #404040bd;
 }
 
 .hair.h17 {
@@ -981,7 +1193,7 @@ div:after, div:before {
     height: 12%;
     width: 27%;
     transform: rotate(147deg) scaleY(-1);
-    border-color: #58442e;
+    border-color: #505050;
 }
 
 .hair.h18 {
@@ -990,8 +1202,8 @@ div:after, div:before {
     height: 24%;
     width: 19%;
     transform: rotate(44deg) scaleY(-1) scaleX(-1);
-    border-color: #86684b8f;
-    background-image: radial-gradient(circle at 16% 88%, #583f28, transparent 27%);
+    border-color: #0000008f;
+    background-image: radial-gradient(circle at 16% 88%, #2d2d2d, transparent 27%);
 }
 
 .hair.h19 {
@@ -1000,8 +1212,8 @@ div:after, div:before {
     height: 33%;
     width: 17%;
     transform: rotate(13deg) scaleY(-1) scaleX(-1);
-    border-color: #7b5d3e75;
-    background-image: radial-gradient(circle at 16% 83%, #886d54, transparent 27%);
+    border-color: #79797975;
+    background-image: radial-gradient(circle at 16% 83%, #868686, transparent 27%);
 }
 
 .hair.h20 {
@@ -1010,7 +1222,7 @@ div:after, div:before {
     height: 12%;
     width: 25%;
     transform: rotate(136deg) scaleY(-1);
-    border-color: #403121;
+    border-color: #000000;
 }
 
 .hair.h21 {
@@ -1019,7 +1231,7 @@ div:after, div:before {
     height: 16%;
     width: 21%;
     transform: rotate(89deg);
-    border-color: #86684bd9;
+    border-color: #000000d9;
 }
 
 .hair.h21 .strand:nth-child(4n) {
@@ -1032,12 +1244,12 @@ div:after, div:before {
     height: 18%;
     width: 22%;
     transform: rotate(104deg) scaleX(-1);
-    border-color: #38240eab;
+    border-color: #3e3e3eab;
 }
 
 .hair.h22 .strand:nth-child(3n) {
     transform: rotate(6deg) scaleY(0.75);
-    border-color: #351c11;
+    border-color: #3e3e3e;
 }
 
 .strand {
@@ -1111,7 +1323,10 @@ div:after, div:before {
     border-style: dotted;
     border-width: 0.4em;
     border-bottom-width: 0;
-    background-image: linear-gradient(to bottom, transparent 45%, currentColor 45%, currentColor 55%, transparent 55%), linear-gradient(to right, transparent 30%, currentColor 30%, currentColor 40%, transparent 40%, transparent 60%, currentColor 60%, currentColor 70%, transparent 70%);
+    background-image: linear-gradient(to bottom,
+        transparent 45%,currentColor 45%, currentColor 55%, transparent 55%), 
+      linear-gradient(to right, 
+        transparent 30%, currentColor 30%, currentColor 40%, transparent 40%, transparent 60%, currentColor 60%, currentColor 70%, transparent 70%);
     background-size: 70% 70%;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -1182,7 +1397,23 @@ div:after, div:before {
     top: 2.6em;
     left: 0;
     right: 0;
-    background-image: repeating-conic-gradient(from 0deg at 50% 80%, currentColor, currentColor 4deg, transparent 6deg, transparent 18deg);
+    background-image: 
+        radial-gradient(
+             at 50% 60%,
+             black 0em,
+             black .33em,
+             currentColor .5em,
+             currentColor .85em,
+             transparent 1em
+        ),
+        repeating-conic-gradient(
+            from -10deg at 50% 60%, 
+            currentColor 0deg, 
+            currentColor 25deg, 
+            transparent 30deg, 
+            transparent 85deg,
+            currentcolor 90deg)
+        ;
 }
 
 .arc.a15 {
@@ -1322,8 +1553,9 @@ div:after, div:before {
     width: 102%;
     height: 100%;
     left: 0%;
-    background-color: #c5a58f;
-    background-image: radial-gradient(circle at 23% 7%, #351f1d5c 39%, transparent 44%), linear-gradient(96deg, #2b1816 6%, #603e34 11%, #c5b298 28%, #f5d4b6, #d3c1a7 77%, #9e857d 87%, #6d5144);
+    background-color: #cecece;
+    background-image: radial-gradient(circle at 23% 7%, #4444445c 39%, transparent 44%), 
+    linear-gradient(96deg, #2f2f2f 6%, #6b6b6b 11%, #c3c3c3 28%, #ececec, #cccccc 77%, #ababab 87%, #6f6f6f);
     border-radius: 50% 50% 60% 40% / 4% 6% 66% 23%;
     filter: blur(0.6em);
 }
@@ -1334,7 +1566,7 @@ div:after, div:before {
     border-radius: 0 0 70% 30% / 0 0 90% 50%;
     top: -25%;
     left: -15%;
-    background: #4c302d;
+    background: #464646;
     opacity: 0.6;
     filter: blur(0.8em);
 }
@@ -1366,46 +1598,47 @@ div:after, div:before {
     height: 30%;
     right: 15%;
     top: 55%;
-    background-image: radial-gradient(ellipse at 43% 53%, #906565, transparent 48%), linear-gradient(-90deg, #c2a493 77%, transparent);
-    box-shadow: 0.3em 1.7em 0.8em -0.9em #230d0d8a;
+    background-image: radial-gradient(ellipse at 43% 53%, #717171, transparent 48%), linear-gradient(-90deg, #bbbbbb 77%, transparent);
+    box-shadow: 0.3em 1.7em 0.8em -0.9em #2f2f2f8a;
 }
 
 .ear:after {
     width: 100%;
     height: 100%;
     border-radius: inherit;
-    box-shadow: inset -0.9em 0.4em 0.3em -0.6em #a27171, inset -0.2em -1.1em 1.0em -0.6em #754141, inset -1.1em 1.0em 0.8em -0.6em #d49f97;
+    box-shadow: inset -0.9em 0.4em 0.3em -0.6em #676767, inset -0.2em -1.1em 1.0em -0.6em #000000, inset -1.1em 1.0em 0.8em -0.6em #bfbfbf;
 }
 
 .helix {
-    background-image: radial-gradient(ellipse at 69% 48%, #f1dbdb87, transparent 36%), linear-gradient(96deg, #9a675f, transparent 64%);
+    background-image: radial-gradient(ellipse at 69% 48%, #f1dbdb87, transparent 36%), linear-gradient(96deg, #4e4e4e, transparent 64%);
     border-radius: 45% 56% 75% 23% / 83% 35% 65% 25%;
     width: 71%;
     height: 76%;
     top: 9%;
     left: 18%;
-    box-shadow: -1.0em -1.0em 0.8em -0.9em #c5aaa7, inset -0.1em 0.7em 0.3em 0.0em #542d2d, inset 0.1em 0.8em 0.4em -0.2em #a06e57;
+    box-shadow: -1.0em -1.0em 0.8em -0.9em #464646, inset -0.1em 0.7em 0.3em 0.0em #505050, inset 0.1em 0.8em 0.4em -0.2em #afafaf;
     overflow: hidden;
 }
 
 .tragus {
     border-radius: 0 100% 100% 0% / 0% 41% 53% 5%;
     width: 16%;
-    background: #bd9b8c;
+    background: #8e8e8e;
     height: 34%;
     top: 49%;
     left: -1%;
-    box-shadow: 0.2em 0.6em 0.3em -0.1em #5f282861, inset -0.1em 1.1em 0.8em -0.8em #f3dace82;
+    box-shadow: 0.2em 0.6em 0.3em -0.1em #5a5a5a61, inset -0.1em 1.1em 0.8em -0.8em #e8e8e882;
 }
 
 .antitragus {
     border-radius: 45% 56% 47% 23% / 83% 26% 25% 17%;
     width: 45%;
-    background: #bd9b8c;
-    height: 14%;
+    background:
+        radial-gradient(#ace5f3,#84c8d8 15%,#1a2f33 45%,black 46%, black 50%, #b9b9b9 60%);
+    height: 20%;
     top: 71%;
     left: 26%;
-    box-shadow: -0.7em -0.5em 0.3em -0.4em #713c3cab, inset -0.1em 1.1em 0.8em -0.8em #f3dace82;
+    box-shadow: -0.7em -0.5em 0.3em -0.4em #404040ab, inset -0.1em 1.1em 0.8em -0.8em #d8d8d882;
 }
 
 .conch {
@@ -1414,8 +1647,8 @@ div:after, div:before {
     height: 66%;
     top: 26%;
     left: -3%;
-    background-image: radial-gradient(ellipse at -13% 43%, #44030375 20%, transparent 39%);
-    box-shadow: inset 0.3em 0.8em 0.4em 0.2em #582c2ccf, 0.9em -0.6em 0.4em -0.4em #8c5757b0;
+    background-image: radial-gradient(ellipse at -13% 43%, #46464675 20%, transparent 39%);
+    box-shadow: inset 0.3em 0.8em 0.4em 0.2em #313131cf, 0.9em -0.6em 0.4em -0.4em #525252b0;
 }
 
 .updo {
@@ -1575,7 +1808,12 @@ div:after, div:before {
 }
 
 .pearl {
-    background-image: radial-gradient(circle at 59% 36%, #adb0bb 6%, #d6b8b829 17%, transparent 28%), radial-gradient(circle at 58% 41%, #4c3f3c 34%, transparent 47%), radial-gradient(circle at 50% 50%, #222c3c 43%, transparent 69%), radial-gradient(circle at 50% 50%, #907f7f, #211a1a 69%, transparent 71%), linear-gradient(to right, transparent, #0c0c0ce3, transparent);
+    background-image: 
+        radial-gradient(circle at 59% 36%, #d4d4d4 6%, #54545429 17%, transparent 28%), 
+        radial-gradient(circle at 58% 41%, #313131 34%, transparent 47%), 
+        radial-gradient(circle at 50% 50%, #212121 43%, transparent 69%),
+        radial-gradient(circle at 50% 50%, #020202, #000000 69%, transparent 71%), 
+        linear-gradient(to right, transparent, #0c0c0ce3, transparent);
     background-position: center 0;
     background-size: 2.0em 2.0em;
     background-repeat: repeat-y;
@@ -1595,7 +1833,12 @@ div:after, div:before {
 }
 
 .shoulders .pearl {
-    background-image: radial-gradient(circle at 59% 36%, #ebedf5 6%, #d6b8b829 17%, transparent 28%), radial-gradient(circle at 57% 38%, #a09796 34%, transparent 47%), radial-gradient(circle at 51% 47%, #737579 43%, transparent 69%), radial-gradient(circle at 50% 50%, #c5bfbf, #46464680 69%, transparent 71%), linear-gradient(to right, transparent, black 40%, black 60%, transparent);
+    background-image: 
+      radial-gradient(circle at 59% 36%, #d4d4d4 6%, #54545429 17%, transparent 28%), 
+        radial-gradient(circle at 58% 41%, #313131 34%, transparent 47%), 
+        radial-gradient(circle at 50% 50%, #212121 43%, transparent 69%),
+        radial-gradient(circle at 50% 50%, #000000, #000000 69%, transparent 71%), 
+        linear-gradient(to right, transparent, #0c0c0ce3, transparent);
     transform-origin: 50% 0;
     width: 4.5em;
 }
@@ -1712,6 +1955,26 @@ div:after, div:before {
     transform: rotate(-85deg);
 }
 
+.ankh {
+    height: 12%;
+    width: 4.5%;
+    top: 42.5%;
+    left: 39%;
+    font-size:7em;
+    text-align:center;
+    font-weight:bolder;
+    color:#0000007a;
+    vertical-align:top;
+    line-height:.97em;
+    transform:rotate(8deg);
+    border-radius: 50% 50% 50% 50% / 25% 25% 52% 52%;
+    border: .04em solid #30303060;
+    background-image: 
+        radial-gradient(at 40% 40%, #a5eeff, #00cbff91 30%, #1b3d42b3 70%, transparent),
+        repeating-conic-gradient(transparent, rgba(74, 74, 74, 0.25) 20deg, transparent 30deg);
+    box-shadow: inset 0 -0.7em 0.1em -0.2em #00000000, inset 0 -0.5em 0.5em 0.8em #00000012, 0 0.3em 0.5em -0.2em black;
+}
+
 .pearlring {
     height: 5%;
     width: 6%;
@@ -1728,8 +1991,8 @@ div:after, div:before {
     left: 38%;
     top: 5%;
     border-radius: 0 0 48% 43% / 0 0 84% 70%;
-    background-color: #d6b899;
-    background-image: linear-gradient(96deg, #7b6157 11%, #a79388 21%, #C7B191 36%, #f9d7b8 64%, #e2bda8 88%);
+    background-color: #dadada;
+    background-image: linear-gradient(96deg, #c7c7c7 11%, #b1b1b1 21%, #b5b5b5 36%, #efefef 64%, #c5c5c5 88%);
     transform: rotate(21deg);
     transform-origin: 100% 0;
     border: 0.0em double #ffffff7a;
@@ -1902,7 +2165,7 @@ div:after, div:before {
     height: 12%;
     top: 35%;
     right: 31%;
-    color: #6f5043;
+    color: #000000;
     transform: scaleY(-1) rotate(29deg);
     border-radius: 7% 92% 12% 2% / 9% 84% 14% 12%;
 }
@@ -1912,7 +2175,7 @@ div:after, div:before {
     height: 20%;
     top: 56%;
     left: 24%;
-    color: #462c2091;
+    color: #000000;
     transform: scaleX(-1) rotate(-19deg);
     border-radius: 15% 11% 47% 2% / 9% 29% 57% 4%;
 }
@@ -1922,7 +2185,7 @@ div:after, div:before {
     height: 7%;
     top: 46%;
     right: 38%;
-    color: #6d5247;
+    color: #000000;
     transform: scaleY(-1) scaleX(-1) rotate(19deg);
     border-radius: 7% 92% 12% 2% / 9% 84% 14% 12%;
 }
@@ -1932,28 +2195,28 @@ div:after, div:before {
     height: 10%;
     top: 61%;
     right: 31%;
-    color: #462c203b;
+    color: #000000;
     transform: scaleX(1) rotate(-29deg);
     border-radius: 15% 11% 47% 2% / 9% 29% 57% 4%;
 }
 
 .hair.browleft {
     width: 15%;
-    height: 2.43%;
-    top: 32%;
-    left: 3%;
-    color: #3a221794;
-    transform: scaleY(-1) scaleX(1) rotate(-4deg);
+    height: 2.23%;
+    top: 31%;
+    left: 6%;
+    color: #000000;
+    transform: scaleY(-1) scaleX(1) rotate(-25deg);
     border-radius: 15% 11% 47% 2% / 9% 29% 57% 4%;
 }
 
 .hair.browright {
     width: 30%;
     height: 10%;
-    top: 11%;
-    right: 55%;
-    color: #735547f2;
-    transform: scaleY(-1) scaleX(-1) rotate(-10deg);
+    top: 5%;
+    right: 57%;
+    color: #000000f2;
+    transform: scaleY(-1) scaleX(-1) rotate(-20deg);
     border-radius: 15% 11% 47% 2% / 9% 29% 57% 4%;
 }
 
@@ -1963,6 +2226,6 @@ div:after, div:before {
     height: 40%;
     top: 4%;
     border-radius: 0 0 64% 36% / 0 0 99% 73%;
-    box-shadow: 0 8px 7px 4px #54373785;
+    box-shadow: 0 8px 7px 4px #00000085;
     transform: rotate(21deg);
 }
